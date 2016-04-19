@@ -1,47 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Proyecto CSS</title>
+    <meta charset="utf-8">
     <style>
-        
-        /*Reglas CSS*/
-        head,h1,h2,h3,h4,h5,h6{
-             margin: 0;
-             padding: 0;
+        /* Reglas CSS */
+        /* De tipo etiqueta */
+        body,h1,h2,h3,h4,h5,h6 {
+            margin: 0;
+            padding: 0;
         }
-        
-        p{
+        p {
             text-align: justify;
-            text-transform:capitalize
+            text-transform: capitalize;
         }
-        /*De id*/
-        #nota-importante{
+        /* De tipo ID */
+        #nota-importante {
             width: 400px;
         }
-        
-        #nota-importante p{
+        section#nota-importante p {
             font-style: italic;
-            color: darkorchid;
+        }
+        /*De tipo clase */
+        .texto-azul {
+            color: blue;
         }
     </style>
 </head>
 <body>
     <h1>Proyecto CSS</h1>
-    <h2 style="text-decoration:underline;color:yellow;">CSS inline</h2>
+    <h2 style="text-decoration:underline;">CSS inline</h2>
     <section id="nota-importante">
-        <aritcle>
+        <article>
             <header>
-               <h3>
-                   Nota importante
-               </h3>
+                <h3 class="texto-azul">NOTA IMPORTANTE</h3>
             </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam tenetur voluptates mollitia dolores deleniti iste, quasi, sunt sequi non tempore, autem ipsa sed modi eveniet nisi voluptate quis omnis necessitatibus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus aspernatur consectetur magnam id nesciunt, quam autem mollitia minima rerum nemo facere tempora et repellat, praesentium quo vel delectus eaque!</p>
             <footer>
-                Nota importante por 4AM-PR
+            nota importante por 4AM-PR
             </footer>
-        </aritcle>
+        </article>
     </section>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate saepe quis totam ad ex nisi vitae in ipsa et doloremque. Impedit consequuntur sequi incidunt. Fuga libero deserunt in? Autem, ullam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores officia excepturi asperiores temporibus quasi odio. Quisquam in vel at molestias repellat sapiente delectus, eius ea, quam recusandae aliquam sequi rerum.</p>
+    <section id="notas-secundarias">
+        <article>
+            <header>
+                <h3 class="texto-azul">titulo 1 de nota secundaria</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa molestiae necessitatibus veniam, eligendi, id commodi voluptatem ex officiis autem quod in laborum optio deleniti quos impedit possimus nobis alias!</p>
+        </article>
+        <article>
+            <header>
+                <h3 class="texto-azul">titulo 2 de nota secundaria</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa molestiae necessitatibus veniam, eligendi, id commodi voluptatem ex officiis autem quod in laborum optio deleniti quos impedit possimus nobis alias!</p>
+        </article>
+        <article>
+            <header>
+                <h3 class="texto-azul">titulo 3 de nota secundaria</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa molestiae necessitatibus veniam, eligendi, id commodi voluptatem ex officiis autem quod in laborum optio deleniti quos impedit possimus nobis alias!</p>
+        </article>
+        <article>
+            <header>
+                <h3 class="texto-azul">titulo 4 de nota secundaria</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa molestiae necessitatibus veniam, eligendi, id commodi voluptatem ex officiis autem quod in laborum optio deleniti quos impedit possimus nobis alias!</p>
+        </article>
+        <article>
+            <header>
+                <h3 class="texto-azul">titulo 5 de nota secundaria</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ipsa molestiae necessitatibus veniam, eligendi, id commodi voluptatem ex officiis autem quod in laborum optio deleniti quos impedit possimus nobis alias!</p>
+        </article>
+    </section>
 </body>
 </html>
