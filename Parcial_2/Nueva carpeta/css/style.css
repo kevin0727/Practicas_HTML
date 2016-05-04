@@ -9,14 +9,14 @@
 
 #barra-navegacion {
     height: 50px;
-    background-color: darkblue
+    background-color: darkcyan;
 }
 
 #notas-secundarias {
-    display: inline-block;
     float: left;
-    height: 300px;
-    width: 700px;
+    height: 260px;
+    width: 660px;
+    padding: 20px;
     background-color: fuchsia;
 }
 
@@ -26,11 +26,11 @@
 }
 
 #publicidad {
-    width: 220px;
-    height: 300px;
-    background-color: greenyellow;
-   display: inline-block;
+    width: 200px;
+    height: 280px;
+    padding: 10px;
     float: right;
+    background-color: chartreuse;
 }
 
 #pie {
@@ -43,4 +43,21 @@ body, h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
 }
+#logo-sep {
+    margin-top: 31px;
+    float: left;
+}
 
+
+#titulos {
+    padding-left: 310px;
+}
+#titulos h1{
+    font-size: 1.5em;
+}
+#titulos *{
+    display: inline-block;
+    
+    margin: 0;
+    padding: 0;
+}
